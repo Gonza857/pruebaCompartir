@@ -13,6 +13,10 @@ public class Cerradura {
 	}
 
 	public String abrirCerradura(int codigo) {
+		
+		String pruebaCambio = "oaoaoaoaoa";
+		System.out.println(pruebaCambio);
+		
 		if (this.codigo == codigo) {
 			this.estaAbierta = true;
 			return "Cerradura Abierta";
